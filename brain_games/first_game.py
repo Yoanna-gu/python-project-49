@@ -26,14 +26,14 @@ def get_correct_answer(number):
 
 
 def is_even_game():
-    name = prompt.string("May I have your name?")
+    name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
     print(f'Answer "yes" if the number is even, otherwise answer "no".')
     correct_answer_count = 0
 
     while correct_answer_count < 3:
         number = randint(0, 100)
-        answer = prompt.string(f'Question: {number}')
+        answer = prompt.string(f'Question: {number}\nYour answer: ')
         if is_correct(answer, number) == 'wrong':
             correct_answer = get_correct_answer(number)
             print(f'"{answer}" is wrong answer;( . Correct amswer was "{correct_answer}". \n Let\'s try again, {name}!')
