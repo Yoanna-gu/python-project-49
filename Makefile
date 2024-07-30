@@ -3,7 +3,9 @@ install:
 brain-games:
 	poetry run brain-games
 brain-even:
-	poetry run brain-even
+	poetry run first_game
+brain-calc:
+	poetry run calc_game
 build:
 	poetry build
 publish:
