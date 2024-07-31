@@ -6,6 +6,8 @@ brain-even:
 	poetry run first_game
 brain-calc:
 	poetry run calc_game
+brain-gcd:
+	poetry run brain_gcd
 build:
 	poetry build
 publish:
