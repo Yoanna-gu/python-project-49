@@ -3,3 +3,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/419219c7114dc1dbd031/maintainability)](https://codeclimate.com/github/Yoanna-gu/python-project-49/maintainability)
 https://asciinema.org/a/t8uOQSlbQ0ZuRKpEICze4D2De
 https://asciinema.org/a/VbF40rCfyAzBCt3llhV64aCNb
+https://asciinema.org/a/aIqiNz74QX3Ax9EinQibHnADq
