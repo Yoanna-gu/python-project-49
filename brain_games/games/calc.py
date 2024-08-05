@@ -1,5 +1,4 @@
 import random
-import operator
 
 
 def get_correct_answer(num1, num2, op):
@@ -10,6 +9,7 @@ def get_correct_answer(num1, num2, op):
     else:
         answer = num1 * num2
     return answer
+
 
 def calc_game():
     game_condition = f'What is the result of the expression?'
