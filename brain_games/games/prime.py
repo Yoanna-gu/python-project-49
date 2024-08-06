@@ -13,6 +13,7 @@ def get_correct_answer(num):
             return 'no'
     return 'yes'
 
+
 def is_prime_game():
     game_condition = f'Answer "yes" if given number is prime. Otherwise answer "no".'
     num = random.randint(1, 300)

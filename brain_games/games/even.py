@@ -7,11 +7,13 @@ def is_even(number):
     else:
         return False
 
+
 def get_correct_answer(number):
     if is_even(number) is True:
         return 'yes'
     else:
         return 'no'
+
 
 def is_even_game():
     game_condition = f'Answer "yes" if the number is even, otherwise answer "no".'

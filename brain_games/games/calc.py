@@ -1,5 +1,4 @@
 import random
-import operator
 
 
 def get_correct_answer(num1, num2, op):
