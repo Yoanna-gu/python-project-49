@@ -2,7 +2,8 @@ import random
 
 
 def progression_game():
-    game_condition = f'What number is missing in the progression?'
+    massage = 'What number is missing in the progression?'
+    game_condition = f'{massage}'
     next_num = random.randint(1, 30)
     step = random.randint(1, 5)
     progression = []

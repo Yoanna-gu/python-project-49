@@ -8,7 +8,8 @@ def get_correct_answer(num1, num2):
 
 
 def gcd_game():
-    game_condition = f'Find the greatest common divisor of given numbers.'
+    masage = 'Find the greatest common divisor of given numbers.'
+    game_condition = f'{masage}'
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
     expression = f'{num1} {num2}'

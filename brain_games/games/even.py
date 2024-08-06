@@ -16,7 +16,8 @@ def get_correct_answer(number):
 
 
 def is_even_game():
-    game_condition = f'Answer "yes" if the number is even, otherwise answer "no".'
+    message = 'Answer "yes" if the number is even, otherwise answer "no".'
+    game_condition = f'{message}'
     number = randint(0, 100)
     quetion = f'Question: {number}\nYour answer: '
     correct_answer = get_correct_answer(number)

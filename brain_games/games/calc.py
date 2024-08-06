@@ -12,7 +12,8 @@ def get_correct_answer(num1, num2, op):
 
 
 def calc_game():
-    game_condition = f'What is the result of the expression?'
+    massage = 'What is the result of the expression?'
+    game_condition = f'{massage}'
     operator = ['-', '+', '*']
     op = random.choice(operator)
     num1 = random.randint(10, 30)
