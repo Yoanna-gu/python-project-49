@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.9"
+version = "0.1.10"
 description = "Project include intellectual consol mini-games"
 authors = ["Yana Gubskaya <Yana.gubskaja87@gmail.com>"]
 readme = "README.md"

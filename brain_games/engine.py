@@ -16,9 +16,7 @@ def start_game(function):
         correct_answer = game_dictionary['correct_answer']
         answer = prompt.string(question)
         if answer != correct_answer:
-            part1_mess = f'\n Let\'s try again, {name}!'
-            part2_mess = f'Correct answer was "{correct_answer}". {part1_mess}'
-            print(f'"{answer}" is wrong answer;( . {part2_mess}')
+            print(f'"{answer}" is wrong answer;( . Correct amswer was "{correct_answer}". \n Let\'s try again, {name}!')
             break
         print('Correct!')
         correct_answer_count += 1

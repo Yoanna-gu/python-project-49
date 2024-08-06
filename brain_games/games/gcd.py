@@ -6,7 +6,6 @@ def get_correct_answer(num1, num2):
     answer = math.gcd(num1, num2)
     return answer
 
-
 def gcd_game():
     game_condition = f'Find the greatest common divisor of given numbers.'
     num1 = random.randint(1, 100)
