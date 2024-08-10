@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.10"
+version = "0.1.11"
 description = "Project include intellectual consol mini-games"
 authors = ["Yana Gubskaya <Yana.gubskaja87@gmail.com>"]
 readme = "README.md"
@@ -27,7 +27,7 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_even:main"
+brain-games = "brain_games.scripts.brain-games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain_even = "brain_games.scripts.brain_even:main"
 brain_calc = "brain_games.scripts.brain_calc:main"
